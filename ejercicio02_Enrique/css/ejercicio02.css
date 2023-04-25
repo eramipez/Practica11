@@ -1,0 +1,155 @@
+h1,
+h2,
+h3,
+nav,
+footer {
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+
+body {
+    font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+    font-size: 80%;
+}
+
+div#search-bar {
+    margin-top: 1em;
+    margin: 0.25em auto;
+    background-color: #EBF4FF;
+    padding: 1em;
+    border: 1.5pt solid #95BEF0;
+    width: 80%;
+}
+
+div#action-set {
+    margin: 0.25em auto;
+    background-color: #EBF4FF;
+    padding: 1em;
+    border: 1.5pt solid #95BEF0;
+    width: 80%;
+}
+
+div#artworks {
+    background-color: #EBF4FF;
+    margin-top: 1em;
+    background-color: #FAFCFF;
+    margin: 0.25em auto;
+    padding: 1em;
+    border: 1.5pt solid #95BEF0;
+    width: 80%;
+}
+
+caption {
+    background-color: #95BEF0;
+    padding: 0.5em 0.5em;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+
+}
+
+table td {
+    border-top: 1pt solid #95BEF0;
+    line-height: 1.5em;
+    vertical-align: middle;
+    padding: 0.5em 0.75em;
+}
+
+tbody {
+    border-top: 1pt solid #95BEF0;
+    line-height: 1.5em;
+    vertical-align: middle;
+    padding: 0.5em 0.75em;
+}
+
+table th {
+    text-align: left;
+    padding: 0.25em 0.75em;
+}
+
+thead {
+    text-align: left;
+    padding: 0.25em 0.75em;
+}
+
+table thead {
+    background-color: #EBF4FF;
+}
+
+table tbody td:first-child {
+    text-align: center;
+    padding: 0.5em 0em;
+}
+
+.copia {
+    position: fixed;
+    height: 10em;
+    border: 2px solid black;
+    padding: 4px;
+    background-color: white;
+    transform: translateX(100%) scale(1.5);
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    display: block;
+    
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.close-button{
+    border-color: #888;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    font-size: 1.5em;
+    color: rgba(128, 126, 126, 0.63);
+}
+
+.Head{
+    display: flex;
+    justify-content: space-between;
+}
+.body-element{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#imagen-ampliada {
+
+    border: 5px dashed red;
+    position: absolute;
+    display: none;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    z-index: 9999;
+    border: 1px solid #ccc;
+  }
+ 
+  form, input, select, a{
+       margin: 0;
+       padding: 0;
+       font-size: 100%;
+       vertical-align: baseline;
+       border: 0;
+  border: 1px solid #666666;
+ }
